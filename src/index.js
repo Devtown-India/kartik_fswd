@@ -24,7 +24,7 @@ app.use("/post", postRoutes);
 app.use("/comment", commentRoutes);
 
 app.get("/", (req, res) => {
-  res.send(`Server is running revision 1.0`);
+  res.send(`Server is running revision 1.0.0`);
 });
 
 
